@@ -8,7 +8,7 @@ function formValidation(form, notifica) {
   _v.notificationItem = document.querySelector(`${notifica}`);
   _v.passwordStrength = document.querySelectorAll("#password > span");
   _v.formItems = Array.from(_v.form.elements);
-  //_v.messagePattern = document.getElementById('#password > span#message');
+  v.messagePattern = document.getElementById('#password > span#message');
   //console.log(_v.messagePattern)
   submitForm();
   checkPasswordStrength();
